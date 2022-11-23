@@ -1,3 +1,7 @@
+#React.js Essential Training
+
+[React.js Essential Training](https://www.linkedin.com/learning/react-js-essential-training-14836121)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
