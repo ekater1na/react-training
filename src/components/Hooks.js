@@ -1,5 +1,5 @@
 import { useEffect, useReducer, useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function Hooks() {
   const [mood, setMood] = useState("neutral");
@@ -39,6 +39,12 @@ function Hooks() {
         <h1>useReducer</h1>
         <input type="checkbox" value={check} onChange={setCheck} />
         <label>{check ? "Checked" : "Not checked"}</label>
+      </div>
+
+      <div>
+        <nav>
+          <Link to="history">Show History page</Link>
+        </nav>
       </div>
       <Outlet />
     </div>
