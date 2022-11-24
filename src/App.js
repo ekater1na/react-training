@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import "./App.css";
 import UncontrolledForm from "./components/Forms/UncontrolledForm";
 import ControlledForm from "./components/Forms/ControlledForm";
@@ -9,10 +8,10 @@ import RenderProps from "./components/Async/RenderProps";
 import GraphQL from "./components/Async/GraphQL";
 import Hooks from "./components/Hooks";
 import Header from "./components/Header";
-import Welcome from "./components/Welcome";
-import History from "./components/History";
-import Forms from "./components/Forms";
 import Async from "./components/Async";
+import Welcome from "./pages/Welcome";
+import History from "./pages/History";
+import Forms from "./pages/Forms";
 
 function App() {
   return (

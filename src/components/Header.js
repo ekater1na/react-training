@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div>
+    <header>
       <button>
         <a href="/">Home</a>
       </button>
@@ -11,7 +11,7 @@ function Header() {
         <Link to="/forms">Forms</Link>
         <Link to="/async">Async</Link>
       </nav>
-    </div>
+    </header>
   );
 }
 
