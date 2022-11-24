@@ -1,4 +1,5 @@
 import { useEffect, useReducer, useState } from "react";
+import { Outlet } from "react-router-dom";
 
 function Hooks() {
   const [mood, setMood] = useState("neutral");
@@ -39,6 +40,7 @@ function Hooks() {
         <input type="checkbox" value={check} onChange={setCheck} />
         <label>{check ? "Checked" : "Not checked"}</label>
       </div>
+      <Outlet />
     </div>
   );
 }
